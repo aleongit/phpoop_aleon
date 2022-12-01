@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Mono&display=swap');
+
+* {
+box-sizing: border-box;
+font-family: 'Roboto Mono', monospace, Courier;
+margin: 0;
+padding: 0;
+}
+
+a:visited, a:link {
+  color: #acacac;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+background-color: whitesmoke;
+color: #4a4a4a;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+ }
+
+.container {
+  display: block;
+  /*background-color: #ddd;*/
+  padding: 1px;
+  width: 90%;
+  min-width: 450px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex:100%;
+}
+
+div.marca {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 30%;
+  justify-content: flex-start;
+  background: white;
+  padding: 10px;
+  border: solid #bbb9b9;
+  border-width: 1px 0 1px 0;
+  margin: 5px 0 1em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 70%;
+  justify-content: right;
+  background: white;
+  padding: 10px;
+  border: solid #bbb9b9;
+  border-width: 1px 0 1px 0;
+  margin: 5px 0 1em;
+}
+
+.logo {
+font-size: 1.5em;
+text-align: center;
+}
+
+.logo .blau {
+  color: dodgerblue;
+}
+
+.logo .negre {
+  color: black;
+}
+
+.a_logo {
+  text-decoration: none;
+}
+
+.a_logo:link, .a_logo:visited {
+  color: #4a4a4a;
+}
+
+.a_logo:hover {
+  color: black;
+}
+
+.button {
+  background-color: white;
+  border: solid 1px #dbdbdb;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 0.5em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  border-color: #b5b5b5;
+  color: #363636;
+}
+
+.button.is-info {
+  background-color: #209cee;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-yes {
+  background-color: #16d44f;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-no {
+  background-color: #e0582f;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-info:hover, .button.is-yes:hover, .button.is-no:hover {
+  opacity: 0.9;
+}
+
+.main {
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  min-width: 450px;
+  margin: auto;
+  border: solid #4d4d4d;
+  border-width: 1px 0 1px 0;
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.main h2 {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+}
+
+.main h3 {
+  font-size: 1.55em;
+  margin-bottom: 1em;
+}
+
+.main pre {
+  margin-bottom: 2em;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/*
+.main p:not(:last-child) {
+  margin-bottom: 2em;
+}
+*/
+
+.centre {
+  text-align: center;
+}
+
+code {
+  display: block;
+  overflow-x: auto;
+  padding: 1em 0.5em;
+  color: #d2d4de;
+  background: #282a34;
+  margin: 1em 0;
+}
+
+code .camp {
+  font-weight: bold;
+  color: white;
+}
+
+.doc {
+  padding: 1em 0;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #6e6e6e;
+}
+
+.apren{
+  margin: 1em;
+  padding: 1em 0;
+}
+
+/* table _______________________________________________ */
+table { 
+  text-align: left;
+  border-spacing: 0.1rem;  
+}
+
+tr {  border-bottom: 1px solid #ddd;  }
+
+th {
+  /*background-color: hsl(0, 0%, 90%);*/
+  /*border-bottom: 1px solid #ddd;*/
+  padding: 0.2rem;
+ }
+
+td {
+  /*border-bottom: 1px solid #ddd;*/
+  padding: 0.2rem;
+  width: 3rem;
+  height:3rem;  
+}
+
+/*td:nth-child(even) {background-color: #f2f2f2;}*/
+
+td:hover {background-color: whitesmoke;}
+
+/*form _________________________________________________ */
+
+.container_form {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 0 2em 2em;
+  width: 50%;
+  min-width: 410px;
+  margin: 1em auto;
+  border: solid #4d4d4d;
+  border-width: 1px 0 1px 0;
+}
+
+#form_form {
+  background-color: rgb(231, 230, 230);
+}
+
+#form_camps {
+  background-color: white;
+}
+
+.camp {
+  margin: 1em;
+  padding: 1em;
+  background-color: whitesmoke;
+  border: solid #4d4d4d;
+  border-width: 1px 0 1px 0;
+
+}
+
+.ncamp {
+  font-size: 2em;
+}
+
+.container_form h1 {
+  text-align: center;
+  margin: 0 0 0 1em;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /*resize: vertical;*/
+  font-size: 1rem;
+  /*margin: 0 0 1em;*/
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+input[type=submit], .submit {
+  background-color:#4d4d4d;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1em 0 0 0;
+}
+
+input[type=checkbox]{
+  width: auto;
+}
+
+input[type=submit]:hover {
+  background-color:#404040;
+}
+
+
+
+.col-20 {
+  float: left;
+  width: 20%;
+  margin: 1px;
+}
+
+.col-48 {
+  float: left;
+  width: 48%;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+}
+
+.error {
+  font-weight: bold;
+  color: rgba(228, 68, 68, 0.616);
+  text-align: center;
+  margin: 0 0 0 1.5em;
+}
+
+.ok {
+  font-weight: bold;
+  color: rgba(38, 204, 5, 0.678);
+  text-align: center;
+  margin: 0 0 0 1.5em;
+}
+
+.row {
+  margin: 0.5em 0 0 0;
+}
+
+.row_small {
+  text-align: right;
+  margin: 0 1.5em 0 0;
+  opacity: 0.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+padding: 3em 0;
+text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-20, .col-75, .col-48 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  input[type=submit], .input_petit {
+    width: 100%;
+  }
+
+  input {
+    margin: 0;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+
+  div.marca {
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    margin: 2px;
+  }
+
+  .button {
+    margin: 0.2em;
+  }
+
+  .row, .row_small, .ok, .error, .container_form h1 {
+    margin: 0;
+  }
+
+  .container_form {
+    padding: 0 0.5em 0.5em;
+    margin: 0 auto;
+  }
+
+
+}
