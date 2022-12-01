@@ -15,3 +15,13 @@ Creació d'un formulari HTML i els seus camps validats utilitzant classes, class
 - cd phpoop_aleon
 - http://localhost/phpoop_aleon/ or apache site
 
+
+![Screenshot](screenshots/1.png)
+
+![Screenshot](screenshots/2.png)
+
+![Screenshot](screenshots/3.png)
+
+![Screenshot](screenshots/4.png)
+
+![Screenshot](screenshots/5.png)
