@@ -12,6 +12,6 @@ Creació d'un formulari HTML i els seus camps validats utilitzant classes, class
 
 ## Get Started
 - git clone https://github.com/aleongit/phpoop_aleon.git
-- cd phpessentials_aleon
+- cd phpoop_aleon
 - http://localhost/phpoop_aleon/ or apache site
 
