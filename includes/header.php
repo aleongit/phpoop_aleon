@@ -25,7 +25,7 @@
 <header>
   <div class = 'marca'>    
     <a class='a_logo' href="index.php">
-        <h2 class='logo'>01-PHP-PPOO <span class='blau'>{<span class='negre'>aleon</span>}</span></h2>
+        <h2 class='logo'>PHP-OOP <span class='blau'>{<span class='negre'>aleon</span>}</span></h2>
     </a>
   </div>
   <nav>
