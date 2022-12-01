@@ -9,6 +9,11 @@ Creació d'un formulari HTML i els seus camps validats utilitzant classes, class
 🖥️ php -v
 → PHP 8.0.12 (cli)
 
+🖥️ Apache
+→ Apache/2.4.51 OpenSSL/1.1.1l PHP/8.0.12 Server
+
+or XAMPP
+
 
 ## Get Started
 - git clone https://github.com/aleongit/phpoop_aleon.git
